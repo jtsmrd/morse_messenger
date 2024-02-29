@@ -4,6 +4,18 @@
    <Group
       location = "container:"
       name = "Firebase">
+      <FileRef
+         location = "group:firebase.json">
+      </FileRef>
+      <FileRef
+         location = "group:firestore.indexes.json">
+      </FileRef>
+      <FileRef
+         location = "group:firestore.rules">
+      </FileRef>
+      <FileRef
+         location = "group:functions">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
