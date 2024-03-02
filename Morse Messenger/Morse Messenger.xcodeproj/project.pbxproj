@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B2196C52B93AAB900EB7518 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B2196C42B93AAB900EB7518 /* GoogleService-Info.plist */; };
 		6B2196C82B93B36900EB7518 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2196C72B93B36900EB7518 /* FirebaseAuth */; };
 		6B2196CA2B93B36900EB7518 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2196C92B93B36900EB7518 /* FirebaseFirestore */; };
 		6B2196CC2B93B36900EB7518 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2196CB2B93B36900EB7518 /* FirebaseFirestoreSwift */; };
@@ -16,6 +15,7 @@
 		6B2196D32B93B41300EB7518 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2196D22B93B41300EB7518 /* GoogleSignIn */; };
 		6B2196D52B93B41300EB7518 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2196D42B93B41300EB7518 /* GoogleSignInSwift */; };
 		6B2196D82B93B47A00EB7518 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2196D72B93B47A00EB7518 /* SDWebImageSwiftUI */; };
+		6B2196DA2B93C0AB00EB7518 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B2196D92B93C0AB00EB7518 /* GoogleService-Info.plist */; };
 		6B7F8D3B2B8E8B36005B3749 /* MorseMessenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F8D3A2B8E8B36005B3749 /* MorseMessenger.swift */; };
 		6B7F8D412B8E8B37005B3749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7F8D402B8E8B37005B3749 /* Assets.xcassets */; };
 		6B7F8D442B8E8B37005B3749 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7F8D432B8E8B37005B3749 /* Preview Assets.xcassets */; };
@@ -42,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B2196C42B93AAB900EB7518 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B2196D92B93C0AB00EB7518 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6B7F8D372B8E8B36005B3749 /* Morse Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Morse Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7F8D3A2B8E8B36005B3749 /* MorseMessenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseMessenger.swift; sourceTree = "<group>"; };
 		6B7F8D402B8E8B37005B3749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				6B7F8D402B8E8B37005B3749 /* Assets.xcassets */,
-				6B2196C42B93AAB900EB7518 /* GoogleService-Info.plist */,
+				6B2196D92B93C0AB00EB7518 /* GoogleService-Info.plist */,
 				6B7F8D3A2B8E8B36005B3749 /* MorseMessenger.swift */,
 				6B7F8D422B8E8B37005B3749 /* Preview Content */,
 			);
@@ -264,7 +264,7 @@
 			files = (
 				6B7F8D442B8E8B37005B3749 /* Preview Assets.xcassets in Resources */,
 				6B7F8D412B8E8B37005B3749 /* Assets.xcassets in Resources */,
-				6B2196C52B93AAB900EB7518 /* GoogleService-Info.plist in Resources */,
+				6B2196DA2B93C0AB00EB7518 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
